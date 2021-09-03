@@ -9,15 +9,14 @@ namespace Assignment2
             Console.Write("Enter your age: ");
                 string input = Console.ReadLine();
 
-
+            int wub;
             int age = int.Parse(input);
 
             // +=1 werkt, ++ werkt niet
-            age = age +1;
+            wub = age++;
 
-            string output = age.ToString();
-
-            Console.WriteLine("Next year you will be " + age +" years old");
+            
+            Console.WriteLine("Next year you will be " + wub +" years old");
 
 
             Console.ReadKey();
